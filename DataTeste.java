@@ -3,7 +3,13 @@ package classe;
 public class DataTeste {
 
 	public static void main(String[] args) {
-		Data nascimento = new Data(25, 06, 1979);
+		
+		// Teste Data normal
+		//Data nascimento = new Data(25, 06, 1979);
+		
+		// Teste DataThis
+		DataThis nascimento = new DataThis();
+		
 		//nascimento.dia = 25;
 		//nascimento.mes = 06;
 		//nascimento.ano = 1979;
